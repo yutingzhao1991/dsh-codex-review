@@ -1,0 +1,14 @@
+# dsh-codex-review bundle patch：把 Host 插件插进当前 profile。
+#
+# 需要改可调项时，不要改本文件，改 profile 自己的 patch 层
+# （~/.dsh/profiles/<profile>/cordis.patch.yml）按 id 覆盖 config，例如：
+#
+#   - id: codex-review
+#     config:
+#       waitMs: 60000
+#       model: gpt-5.6-sol
+#
+# 覆盖是整块替换 config，未写的键由插件内置默认值补齐。
+- insert:
+    - id: codex-review
+      name: dsh-codex-review

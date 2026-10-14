@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Codex 评审工具",
+    "description": "给智能体一个 codex_review 工具，直接在工作目录里跑 codex 评审并回收结论，绕过 DSH 沙箱与命令审批。"
+  }
+}

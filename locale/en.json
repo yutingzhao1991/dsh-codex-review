@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Codex Review Tool",
+    "description": "Adds a codex_review tool that runs codex review in the session workspace and collects its findings, bypassing the DSH sandbox and command approval."
+  }
+}
